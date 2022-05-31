@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hovermenu CSS</title>
+	<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+	</style>
+</head>
+<body bgcolor="#728FCE">
+	<ul id="MainUL">
+			<li>Map
+				<ul>
+					<li>Gujrat
+						<ul>
+							<li>Ahmedabad</li>
+							<li>Junagadh
+								<ul>
+									<li>Ghatlodia</li>
+									<li>Meghani Nagar</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>M.P</li>
+					<li>Kerela</li>
+					<li>Tamil Nadu</li>
+				</ul>
+			</li>
+			<li>Goa</li>
+			<li>Maharashtra
+				<ul>
+					<li>Lonavla</li>
+					<li>Mahableshwar</li>
+				</ul>
+			</li>
+			<li>Jammu and Kashmir</li>
+			<li>Rajasthan
+				<ul>
+					<li>Jantar Mantar</li>
+					<li>Udaipur</li>
+					<li>Jaipur</li>
+				</ul>
+			</li>
+		</ul>
+
+</body>
+</html>
